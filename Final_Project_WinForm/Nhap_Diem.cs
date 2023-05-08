@@ -7,7 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Conventions;
+using MongoDB.Driver;
 namespace Final_Project_WinForm
 {
     public partial class Nhap_Diem : Form
@@ -25,6 +27,7 @@ namespace Final_Project_WinForm
             string lanThi = txt_LanThi.Text;
 
             Nhap_Lop.DS_Lop.getSinhvien(listView_ds_Diem,malop, maMH, int.Parse(lanThi)); 
+
         }
 
         private void btn_add_Click(object sender, EventArgs e)
@@ -38,6 +41,8 @@ namespace Final_Project_WinForm
                 string maMH = txt_maMH.Text;
                 string lanThi = txt_LanThi.Text;
                 Nhap_Lop.DS_Lop.getSinhvien(listView_ds_Diem, malop, maMH, int.Parse(lanThi), MSSV_upDiem, int.Parse(txt_diem.Text));
+                Main_Form.colListClass.DeleteMany(Builders<LinkedList_Lop>.Filter.Empty);
+                Main_Form.colListClass.InsertOne(Nhap_Lop.DS_Lop);
 
             }
         }

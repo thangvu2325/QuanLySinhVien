@@ -56,16 +56,18 @@ namespace Final_Project_WinForm
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.panel_add_sv = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.panel_add_sv.SuspendLayout();
             this.SuspendLayout();
             // 
             // checkBox_NU
             // 
             this.checkBox_NU.AutoSize = true;
             this.checkBox_NU.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_NU.Location = new System.Drawing.Point(281, 286);
+            this.checkBox_NU.Location = new System.Drawing.Point(219, 197);
             this.checkBox_NU.Name = "checkBox_NU";
             this.checkBox_NU.Size = new System.Drawing.Size(62, 30);
             this.checkBox_NU.TabIndex = 113;
@@ -77,7 +79,7 @@ namespace Final_Project_WinForm
             // 
             this.checkBox_Nam.AutoSize = true;
             this.checkBox_Nam.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox_Nam.Location = new System.Drawing.Point(194, 286);
+            this.checkBox_Nam.Location = new System.Drawing.Point(132, 197);
             this.checkBox_Nam.Name = "checkBox_Nam";
             this.checkBox_Nam.Size = new System.Drawing.Size(81, 30);
             this.checkBox_Nam.TabIndex = 112;
@@ -89,7 +91,7 @@ namespace Final_Project_WinForm
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(114, 346);
+            this.label8.Location = new System.Drawing.Point(52, 257);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(61, 26);
             this.label8.TabIndex = 111;
@@ -98,7 +100,7 @@ namespace Final_Project_WinForm
             // txt_SDT
             // 
             this.txt_SDT.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_SDT.Location = new System.Drawing.Point(200, 333);
+            this.txt_SDT.Location = new System.Drawing.Point(138, 244);
             this.txt_SDT.Multiline = true;
             this.txt_SDT.Name = "txt_SDT";
             this.txt_SDT.Size = new System.Drawing.Size(143, 39);
@@ -108,7 +110,7 @@ namespace Final_Project_WinForm
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(111, 286);
+            this.label7.Location = new System.Drawing.Point(49, 197);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(62, 26);
             this.label7.TabIndex = 109;
@@ -118,7 +120,7 @@ namespace Final_Project_WinForm
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(121, 243);
+            this.label6.Location = new System.Drawing.Point(59, 154);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(54, 26);
             this.label6.TabIndex = 108;
@@ -127,7 +129,7 @@ namespace Final_Project_WinForm
             // txt_Ten
             // 
             this.txt_Ten.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Ten.Location = new System.Drawing.Point(200, 226);
+            this.txt_Ten.Location = new System.Drawing.Point(138, 137);
             this.txt_Ten.Multiline = true;
             this.txt_Ten.Name = "txt_Ten";
             this.txt_Ten.Size = new System.Drawing.Size(143, 43);
@@ -137,7 +139,7 @@ namespace Final_Project_WinForm
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(129, 194);
+            this.label5.Location = new System.Drawing.Point(67, 105);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(46, 26);
             this.label5.TabIndex = 106;
@@ -146,7 +148,7 @@ namespace Final_Project_WinForm
             // txt_HO
             // 
             this.txt_HO.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_HO.Location = new System.Drawing.Point(200, 177);
+            this.txt_HO.Location = new System.Drawing.Point(138, 88);
             this.txt_HO.Multiline = true;
             this.txt_HO.Name = "txt_HO";
             this.txt_HO.Size = new System.Drawing.Size(143, 43);
@@ -156,7 +158,7 @@ namespace Final_Project_WinForm
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(94, 134);
+            this.label4.Location = new System.Drawing.Point(32, 45);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(81, 26);
             this.label4.TabIndex = 104;
@@ -165,7 +167,7 @@ namespace Final_Project_WinForm
             // txt_MSSV
             // 
             this.txt_MSSV.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_MSSV.Location = new System.Drawing.Point(200, 117);
+            this.txt_MSSV.Location = new System.Drawing.Point(138, 28);
             this.txt_MSSV.Multiline = true;
             this.txt_MSSV.Name = "txt_MSSV";
             this.txt_MSSV.Size = new System.Drawing.Size(143, 43);
@@ -184,7 +186,7 @@ namespace Final_Project_WinForm
             // btn_Fix_SV
             // 
             this.btn_Fix_SV.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Fix_SV.Location = new System.Drawing.Point(200, 387);
+            this.btn_Fix_SV.Location = new System.Drawing.Point(138, 298);
             this.btn_Fix_SV.Name = "btn_Fix_SV";
             this.btn_Fix_SV.Size = new System.Drawing.Size(129, 43);
             this.btn_Fix_SV.TabIndex = 101;
@@ -195,7 +197,7 @@ namespace Final_Project_WinForm
             // btn_Xoa_SV
             // 
             this.btn_Xoa_SV.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Xoa_SV.Location = new System.Drawing.Point(335, 387);
+            this.btn_Xoa_SV.Location = new System.Drawing.Point(273, 298);
             this.btn_Xoa_SV.Name = "btn_Xoa_SV";
             this.btn_Xoa_SV.Size = new System.Drawing.Size(75, 43);
             this.btn_Xoa_SV.TabIndex = 100;
@@ -215,7 +217,7 @@ namespace Final_Project_WinForm
             // btn_Them_SV
             // 
             this.btn_Them_SV.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Them_SV.Location = new System.Drawing.Point(119, 387);
+            this.btn_Them_SV.Location = new System.Drawing.Point(57, 298);
             this.btn_Them_SV.Name = "btn_Them_SV";
             this.btn_Them_SV.Size = new System.Drawing.Size(75, 43);
             this.btn_Them_SV.TabIndex = 97;
@@ -244,28 +246,15 @@ namespace Final_Project_WinForm
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.panel_add_sv);
             this.groupBox1.Controls.Add(this.btn_Select);
-            this.groupBox1.Controls.Add(this.txt_HO);
-            this.groupBox1.Controls.Add(this.btn_Them_SV);
             this.groupBox1.Controls.Add(this.txt_Ma_Lop);
-            this.groupBox1.Controls.Add(this.checkBox_NU);
-            this.groupBox1.Controls.Add(this.btn_Xoa_SV);
-            this.groupBox1.Controls.Add(this.checkBox_Nam);
-            this.groupBox1.Controls.Add(this.btn_Fix_SV);
-            this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.txt_SDT);
-            this.groupBox1.Controls.Add(this.txt_MSSV);
-            this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.txt_Ten);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Left;
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(0, 52);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(460, 579);
+            this.groupBox1.Size = new System.Drawing.Size(440, 579);
             this.groupBox1.TabIndex = 116;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin:";
@@ -284,11 +273,11 @@ namespace Final_Project_WinForm
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.listView_DSSV);
-            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(466, 52);
+            this.groupBox2.Location = new System.Drawing.Point(440, 52);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(764, 579);
+            this.groupBox2.Size = new System.Drawing.Size(790, 579);
             this.groupBox2.TabIndex = 117;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Danh sách lớp:";
@@ -308,7 +297,7 @@ namespace Final_Project_WinForm
             this.listView_DSSV.HideSelection = false;
             this.listView_DSSV.Location = new System.Drawing.Point(3, 22);
             this.listView_DSSV.Name = "listView_DSSV";
-            this.listView_DSSV.Size = new System.Drawing.Size(758, 554);
+            this.listView_DSSV.Size = new System.Drawing.Size(784, 554);
             this.listView_DSSV.TabIndex = 94;
             this.listView_DSSV.UseCompatibleStateImageBehavior = false;
             this.listView_DSSV.View = System.Windows.Forms.View.Details;
@@ -339,6 +328,27 @@ namespace Final_Project_WinForm
             this.columnHeader5.Text = "SĐT";
             this.columnHeader5.Width = 138;
             // 
+            // panel_add_sv
+            // 
+            this.panel_add_sv.Controls.Add(this.txt_HO);
+            this.panel_add_sv.Controls.Add(this.txt_Ten);
+            this.panel_add_sv.Controls.Add(this.label5);
+            this.panel_add_sv.Controls.Add(this.btn_Them_SV);
+            this.panel_add_sv.Controls.Add(this.label6);
+            this.panel_add_sv.Controls.Add(this.label4);
+            this.panel_add_sv.Controls.Add(this.checkBox_NU);
+            this.panel_add_sv.Controls.Add(this.label7);
+            this.panel_add_sv.Controls.Add(this.btn_Xoa_SV);
+            this.panel_add_sv.Controls.Add(this.txt_MSSV);
+            this.panel_add_sv.Controls.Add(this.checkBox_Nam);
+            this.panel_add_sv.Controls.Add(this.txt_SDT);
+            this.panel_add_sv.Controls.Add(this.btn_Fix_SV);
+            this.panel_add_sv.Controls.Add(this.label8);
+            this.panel_add_sv.Location = new System.Drawing.Point(12, 111);
+            this.panel_add_sv.Name = "panel_add_sv";
+            this.panel_add_sv.Size = new System.Drawing.Size(379, 400);
+            this.panel_add_sv.TabIndex = 116;
+            // 
             // Nhap_SV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -349,11 +359,14 @@ namespace Final_Project_WinForm
             this.Controls.Add(this.panel1);
             this.Name = "Nhap_SV";
             this.Text = "Update_SV";
+            this.Load += new System.EventHandler(this.Nhap_SV_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
+            this.panel_add_sv.ResumeLayout(false);
+            this.panel_add_sv.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -387,5 +400,6 @@ namespace Final_Project_WinForm
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.ColumnHeader columnHeader5;
         private System.Windows.Forms.Button btn_Select;
+        private System.Windows.Forms.Panel panel_add_sv;
     }
 }

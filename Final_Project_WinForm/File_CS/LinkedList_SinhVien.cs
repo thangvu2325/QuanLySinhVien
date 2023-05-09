@@ -88,22 +88,29 @@ namespace Final_Project_WinForm
        
         public void getlistMonhoc(ListView listview_dsDiem,string mamonhoc, int lanthi,string mssv_upDiem, int diem)
         {
-            SingleNode<SinhVien> current = head;
-            int STT = 1;
-            while (current != null)
+            string check= Nhap_MonHoc.DS_MonHoc.Find_MonHoc_by_MaMH(mamonhoc);
+            if (check == null)
             {
-                if(mssv_upDiem == null)
-                    current.data.DSDiem.getDiemmonhoc(listview_dsDiem,current.data.TEN, current.data.HO, current.data.MASV, mamonhoc, lanthi, diem , STT);
-                else if(current.data.MASV ==int.Parse( mssv_upDiem))
-                {
-                    current.data.DSDiem.getDiemmonhoc(listview_dsDiem, current.data.TEN, current.data.HO, current.data.MASV, mamonhoc, lanthi, diem,STT);
-                    break;
-                }
-
-                current = current.next;
-                STT++;
+                MessageBox.Show("Úi không có Mã môn học hoặc lần thi này bạn ơi", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
+            else
+            {
+                SingleNode<SinhVien> current = head;
+                int STT = 1;
+                while (current != null)
+                {
+                    if (mssv_upDiem == null)
+                        current.data.DSDiem.getDiemmonhoc(listview_dsDiem, current.data.TEN, current.data.HO, current.data.MASV, mamonhoc, lanthi, diem, STT);
+                    else if (current.data.MASV == int.Parse(mssv_upDiem))
+                    {
+                        current.data.DSDiem.getDiemmonhoc(listview_dsDiem, current.data.TEN, current.data.HO, current.data.MASV, mamonhoc, lanthi, diem, STT);
+                        break;
+                    }
 
+                    current = current.next;
+                    STT++;
+                }
+            }
         }
     
         public void Bangdiemtongket(ListView lv_bang_TK,BST bst)

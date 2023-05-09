@@ -27,15 +27,16 @@ namespace Final_Project_WinForm
 
             Nhap_Lop.DS_Lop.getSinhvien(listView_ds_Diem_Lanthi, malop, maMH, int.Parse(lanThi));
 
+            if (Nhap_MonHoc.DS_MonHoc.Find_MonHoc_by_MaMH(maMH) != null)
+            {
+                lable_lop.Text = Nhap_Lop.DS_Lop.Ten_Lop_from_MaLop(malop);
+                lable_lanthi.Text =  lanThi;
+                lable_MH.Text = Nhap_MonHoc.DS_MonHoc.Find_MonHoc_by_MaMH(maMH);
 
-            lable_lop.Text = Nhap_Lop.DS_Lop.Ten_Lop_from_MaLop(malop);
-            lable_lanthi.Text = lanThi;
-            lable_MH.Text = Nhap_MonHoc.DS_MonHoc.Find_MonHoc_by_MaMH(maMH);
-
-
-            lable_MH.Show();
-            lable_lop.Show();
-            lable_lanthi.Show();
+                lable_MH.Show();
+                lable_lop.Show();
+                lable_lanthi.Show();
+            }
         }
 
         private void Show_Diem_LanThi_Load(object sender, EventArgs e)

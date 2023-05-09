@@ -24,16 +24,24 @@ namespace Final_Project_WinForm
         SingleNode<SinhVien> current_SV;
         private void btn_Select_Click(object sender, EventArgs e)
         {
+
             listView_DSSV.Items.Clear();
-            current_DS_Lop = Nhap_Lop.DS_Lop.head;
-            while (current_DS_Lop != null)
+            current_DS_Lop = Nhap_Lop.DS_Lop.Find_Lop(txt_Ma_Lop.Text);
+            
+            if(current_DS_Lop == null)
             {
-                if (current_DS_Lop.data.MALOP == txt_Ma_Lop.Text)
-                 break;
-                
-                current_DS_Lop = current_DS_Lop.next;
+                panel_add_sv.Hide();
+                MessageBox.Show("Úi không có lớp này bạn ơi", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                txt_Ma_Lop.ResetText();
+                txt_Ma_Lop.Focus();
             }
-            current_DS_Lop.data.DSSV.Traverse(listView_DSSV);
+            else
+            {
+                current_DS_Lop.data.DSSV.Traverse(listView_DSSV);
+                panel_add_sv.Show();
+                txt_MSSV.Focus();
+            }
+            
             
         }
         private void btn_Them_SV_Click(object sender, EventArgs e)
@@ -55,7 +63,7 @@ namespace Final_Project_WinForm
             Main_Form.colListClass.DeleteMany(Builders<LinkedList_Lop>.Filter.Empty);
             Main_Form.colListClass.InsertOne(Nhap_Lop.DS_Lop);
 
-
+            reset_text();
         }
 
         
@@ -131,6 +139,22 @@ namespace Final_Project_WinForm
                 Main_Form.colListClass.DeleteMany(Builders<LinkedList_Lop>.Filter.Empty);
                 Main_Form.colListClass.InsertOne(Nhap_Lop.DS_Lop);
             }
+        }
+
+        private void Nhap_SV_Load(object sender, EventArgs e)
+        {
+            panel_add_sv.Hide();
+        }
+        private void reset_text()
+        {
+            txt_MSSV.ResetText();
+            txt_Ma_Lop.ResetText();
+            txt_HO.ResetText();
+            txt_Ten.ResetText();
+            txt_SDT.ResetText();
+            checkBox_Nam.Checked = false;
+            checkBox_NU.Checked = false;
+            txt_MSSV.Focus();
         }
     }
 }

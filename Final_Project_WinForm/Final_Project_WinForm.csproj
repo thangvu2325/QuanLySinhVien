@@ -158,82 +158,82 @@
     <Compile Include="File_CS\LinkedList_Lop.cs" />
     <Compile Include="File_CS\LinkedList_SinhVien.cs" />
     <Compile Include="File_CS\Lop.cs" />
-    <Compile Include="Main_Form.cs">
+    <Compile Include="Form_CS\Main_Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Main_Form.Designer.cs">
+    <Compile Include="Form_CS\Main_Form.Designer.cs">
       <DependentUpon>Main_Form.cs</DependentUpon>
     </Compile>
     <Compile Include="File_CS\MonHoc.cs" />
-    <Compile Include="Nhap_Diem.cs">
+    <Compile Include="Form_CS\Nhap_Diem.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Nhap_Diem.Designer.cs">
+    <Compile Include="Form_CS\Nhap_Diem.Designer.cs">
       <DependentUpon>Nhap_Diem.cs</DependentUpon>
     </Compile>
-    <Compile Include="Nhap_Lop.cs">
+    <Compile Include="Form_CS\Nhap_Lop.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Nhap_Lop.Designer.cs">
+    <Compile Include="Form_CS\Nhap_Lop.Designer.cs">
       <DependentUpon>Nhap_Lop.cs</DependentUpon>
     </Compile>
-    <Compile Include="Nhap_MonHoc.cs">
+    <Compile Include="Form_CS\Nhap_MonHoc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Nhap_MonHoc.Designer.cs">
+    <Compile Include="Form_CS\Nhap_MonHoc.Designer.cs">
       <DependentUpon>Nhap_MonHoc.cs</DependentUpon>
     </Compile>
     <Compile Include="File_CS\Program.cs" />
-    <Compile Include="Nhap_MonHoc_SV.cs">
+    <Compile Include="Form_CS\Nhap_MonHoc_SV.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Nhap_MonHoc_SV.Designer.cs">
+    <Compile Include="Form_CS\Nhap_MonHoc_SV.Designer.cs">
       <DependentUpon>Nhap_MonHoc_SV.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Nhap_SV.cs">
+    <Compile Include="Form_CS\Nhap_SV.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Nhap_SV.Designer.cs">
+    <Compile Include="Form_CS\Nhap_SV.Designer.cs">
       <DependentUpon>Nhap_SV.cs</DependentUpon>
     </Compile>
-    <Compile Include="Show_Diem_LanThi.cs">
+    <Compile Include="Form_CS\Show_Diem_LanThi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Show_Diem_LanThi.Designer.cs">
+    <Compile Include="Form_CS\Show_Diem_LanThi.Designer.cs">
       <DependentUpon>Show_Diem_LanThi.cs</DependentUpon>
     </Compile>
-    <Compile Include="Show_Diem_TB.cs">
+    <Compile Include="Form_CS\Show_Diem_TB.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Show_Diem_TB.Designer.cs">
+    <Compile Include="Form_CS\Show_Diem_TB.Designer.cs">
       <DependentUpon>Show_Diem_TB.cs</DependentUpon>
     </Compile>
     <Compile Include="File_CS\SingleNode.cs" />
     <Compile Include="File_CS\SinhVien.cs" />
     <Compile Include="File_CS\TreeNode.cs" />
-    <Compile Include="Show_Diem_TongKet.cs">
+    <Compile Include="Form_CS\Show_Diem_TongKet.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Show_Diem_TongKet.Designer.cs">
+    <Compile Include="Form_CS\Show_Diem_TongKet.Designer.cs">
       <DependentUpon>Show_Diem_TongKet.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Main_Form.resx">
+    <EmbeddedResource Include="Form_CS\Main_Form.resx">
       <DependentUpon>Main_Form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Nhap_Diem.resx">
+    <EmbeddedResource Include="Form_CS\Nhap_Diem.resx">
       <DependentUpon>Nhap_Diem.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Nhap_Lop.resx">
+    <EmbeddedResource Include="Form_CS\Nhap_Lop.resx">
       <DependentUpon>Nhap_Lop.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Nhap_MonHoc.resx">
+    <EmbeddedResource Include="Form_CS\Nhap_MonHoc.resx">
       <DependentUpon>Nhap_MonHoc.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Nhap_MonHoc_SV.resx">
+    <EmbeddedResource Include="Form_CS\Nhap_MonHoc_SV.resx">
       <DependentUpon>Nhap_MonHoc_SV.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Nhap_SV.resx">
+    <EmbeddedResource Include="Form_CS\Nhap_SV.resx">
       <DependentUpon>Nhap_SV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -245,13 +245,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Show_Diem_LanThi.resx">
+    <EmbeddedResource Include="Form_CS\Show_Diem_LanThi.resx">
       <DependentUpon>Show_Diem_LanThi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Show_Diem_TB.resx">
+    <EmbeddedResource Include="Form_CS\Show_Diem_TB.resx">
       <DependentUpon>Show_Diem_TB.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Show_Diem_TongKet.resx">
+    <EmbeddedResource Include="Form_CS\Show_Diem_TongKet.resx">
       <DependentUpon>Show_Diem_TongKet.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="libmongocrypt.dylib" />

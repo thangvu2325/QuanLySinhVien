@@ -130,12 +130,12 @@ namespace Final_Project_WinForm
                 {
                     current.data.DSSV.getlistMonhoc(Listview_dsDiem ,mamonhoc, lanthi,mssv_updiem, diem);
                     
-                   
                     break;
                 }
                 current = current.next;
             }
-
+            if(current==null)
+            MessageBox.Show("Úi không có lớp này bạn ơi", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
         }
 
         public void getAverageScoreInClass( ListView liv_Diem_TB,string masolop, BST bst, bool bangtongket = false)
@@ -164,13 +164,13 @@ namespace Final_Project_WinForm
         public string Nam_Hoc_form_MaLop(string Malop)
         {
             SingleNode<Lop> node = Find_Lop(Malop);
-            return node.data.NAMNHAPHOC.ToString();
+            return node==null? null: node.data.NAMNHAPHOC.ToString();
 
         }
         public string Ten_Lop_from_MaLop(string Malop)
         {
             SingleNode<Lop> node = Find_Lop(Malop);
-            return node.data.TENLOP;
+            return node==null?null: node.data.TENLOP;
 
         }
         public SingleNode<Lop> Find_Lop(string maLop)

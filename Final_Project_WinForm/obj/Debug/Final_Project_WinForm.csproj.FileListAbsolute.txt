@@ -77,6 +77,7 @@ C:\Users\thang\OneDrive - ncv1\Desktop\Final_Project_WinForm\Final_Project_WinFo
 C:\Users\thang\OneDrive - ncv1\Desktop\Final_Project_WinForm\Final_Project_WinForm\bin\Debug\System.Text.Encoding.CodePages.xml
 C:\Users\thang\OneDrive - ncv1\Desktop\Final_Project_WinForm\Final_Project_WinForm\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\thang\OneDrive - ncv1\Desktop\Final_Project_WinForm\Final_Project_WinForm\obj\Debug\Final_Project_WinForm.csproj.CopyComplete
+<<<<<<< HEAD
 C:\Users\thang\OneDrive\GitHub\Final_Project_WinForm\Final_Project_WinForm\bin\Debug\mongocrypt.dll
 C:\Users\thang\OneDrive\GitHub\Final_Project_WinForm\Final_Project_WinForm\bin\Debug\Final_Project_WinForm.exe.config
 C:\Users\thang\OneDrive\GitHub\Final_Project_WinForm\Final_Project_WinForm\bin\Debug\Final_Project_WinForm.exe
@@ -138,3 +139,66 @@ C:\Users\thang\OneDrive\GitHub\Final_Project_WinForm\Final_Project_WinForm\obj\D
 C:\Users\thang\OneDrive\GitHub\Final_Project_WinForm\Final_Project_WinForm\obj\Debug\Final_Project_WinForm.csproj.CopyComplete
 C:\Users\thang\OneDrive\GitHub\Final_Project_WinForm\Final_Project_WinForm\obj\Debug\Final_Project_WinForm.exe
 C:\Users\thang\OneDrive\GitHub\Final_Project_WinForm\Final_Project_WinForm\obj\Debug\Final_Project_WinForm.pdb
+=======
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\mongocrypt.dll
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\Final_Project_WinForm.exe.config
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\Final_Project_WinForm.exe
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\Final_Project_WinForm.pdb
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\AWSSDK.Core.dll
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\AWSSDK.SecurityToken.dll
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\DnsClient.dll
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\Microsoft.Win32.Registry.dll
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\MongoDB.Bson.dll
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\MongoDB.Driver.dll
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\MongoDB.Libmongocrypt.dll
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\SharpCompress.dll
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\Snappier.dll
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\System.Buffers.dll
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\System.Memory.dll
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\System.Security.AccessControl.dll
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\ZstdSharp.dll
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\AWSSDK.Core.pdb
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\AWSSDK.Core.xml
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\AWSSDK.SecurityToken.pdb
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\AWSSDK.SecurityToken.xml
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\DnsClient.xml
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\Microsoft.Win32.Registry.xml
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\MongoDB.Bson.xml
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\MongoDB.Driver.xml
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\Snappier.xml
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\System.Buffers.xml
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\System.Memory.xml
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\System.Security.AccessControl.xml
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\obj\Debug\Final_Project_WinForm.csproj.AssemblyReference.cache
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\obj\Debug\Final_Project_WinForm.Main_Form.resources
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\obj\Debug\Final_Project_WinForm.Nhap_Diem.resources
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\obj\Debug\Final_Project_WinForm.Nhap_Lop.resources
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\obj\Debug\Final_Project_WinForm.Nhap_MonHoc.resources
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\obj\Debug\Final_Project_WinForm.Nhap_MonHoc_SV.resources
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\obj\Debug\Final_Project_WinForm.Nhap_SV.resources
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\obj\Debug\Final_Project_WinForm.Properties.Resources.resources
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\obj\Debug\Final_Project_WinForm.Show_Diem_LanThi.resources
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\obj\Debug\Final_Project_WinForm.Show_Diem_TB.resources
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\obj\Debug\Final_Project_WinForm.Show_Diem_TongKet.resources
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\obj\Debug\Final_Project_WinForm.csproj.GenerateResource.cache
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\obj\Debug\Final_Project_WinForm.csproj.CoreCompileInputs.cache
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\obj\Debug\Final_Project_WinForm.csproj.CopyComplete
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\obj\Debug\Final_Project_WinForm.exe
+C:\Users\acer\Documents\GitHub\QuanLySinhVien\Final_Project_WinForm\obj\Debug\Final_Project_WinForm.pdb
+>>>>>>> 4a3ac13832f8ccc7ef38f6c3d7da3b2474f7c4da

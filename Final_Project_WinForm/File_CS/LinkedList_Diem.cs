@@ -137,7 +137,7 @@ namespace Final_Project_WinForm
         public void getDiemmonhoc(ListView lv_dsDiem, string ten, string ho, int masv, string mamonhoc, int lanthi, int diem,int stt)
         {
             SingleNode<Diem> current = head;
-         
+           
             while (current != null)
             {
                
@@ -148,6 +148,7 @@ namespace Final_Project_WinForm
 
                 else if(diem == 0 && current.data.MAMH == mamonhoc && current.data.LAN == lanthi)
                 {
+                   
                     if (current.data.DIEM == 0)
                     {
                         ListViewItem lvi = new ListViewItem(stt.ToString());
@@ -172,6 +173,7 @@ namespace Final_Project_WinForm
                 current = current.next;
                 
             }
+           
         }
         public void Remove(Diem data)
         {

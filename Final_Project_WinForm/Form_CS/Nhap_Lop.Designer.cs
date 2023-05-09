@@ -61,7 +61,7 @@ namespace Final_Project_WinForm
             this.btn_Fix_Lop.Location = new System.Drawing.Point(143, 253);
             this.btn_Fix_Lop.Name = "btn_Fix_Lop";
             this.btn_Fix_Lop.Size = new System.Drawing.Size(117, 39);
-            this.btn_Fix_Lop.TabIndex = 86;
+            this.btn_Fix_Lop.TabIndex = 5;
             this.btn_Fix_Lop.Text = "Sửa";
             this.btn_Fix_Lop.UseVisualStyleBackColor = true;
             this.btn_Fix_Lop.Click += new System.EventHandler(this.btn_Fix_Lop_Click);
@@ -72,7 +72,7 @@ namespace Final_Project_WinForm
             this.btn_Xoa_Lop.Location = new System.Drawing.Point(285, 253);
             this.btn_Xoa_Lop.Name = "btn_Xoa_Lop";
             this.btn_Xoa_Lop.Size = new System.Drawing.Size(98, 39);
-            this.btn_Xoa_Lop.TabIndex = 85;
+            this.btn_Xoa_Lop.TabIndex = 6;
             this.btn_Xoa_Lop.Text = "Xóa";
             this.btn_Xoa_Lop.UseVisualStyleBackColor = true;
             this.btn_Xoa_Lop.Click += new System.EventHandler(this.btn_Xoa_Lop_Click);
@@ -94,7 +94,7 @@ namespace Final_Project_WinForm
             this.txt_Ma_Lop.Multiline = true;
             this.txt_Ma_Lop.Name = "txt_Ma_Lop";
             this.txt_Ma_Lop.Size = new System.Drawing.Size(166, 39);
-            this.txt_Ma_Lop.TabIndex = 80;
+            this.txt_Ma_Lop.TabIndex = 1;
             // 
             // btn_Add_Lop
             // 
@@ -102,7 +102,7 @@ namespace Final_Project_WinForm
             this.btn_Add_Lop.Location = new System.Drawing.Point(23, 253);
             this.btn_Add_Lop.Name = "btn_Add_Lop";
             this.btn_Add_Lop.Size = new System.Drawing.Size(98, 39);
-            this.btn_Add_Lop.TabIndex = 79;
+            this.btn_Add_Lop.TabIndex = 4;
             this.btn_Add_Lop.Text = "Thêm";
             this.btn_Add_Lop.UseVisualStyleBackColor = true;
             this.btn_Add_Lop.Click += new System.EventHandler(this.btn_Add_Lop_Click);
@@ -124,7 +124,7 @@ namespace Final_Project_WinForm
             this.txt_Ten_Lop.Multiline = true;
             this.txt_Ten_Lop.Name = "txt_Ten_Lop";
             this.txt_Ten_Lop.Size = new System.Drawing.Size(166, 39);
-            this.txt_Ten_Lop.TabIndex = 87;
+            this.txt_Ten_Lop.TabIndex = 2;
             // 
             // label3
             // 
@@ -143,7 +143,7 @@ namespace Final_Project_WinForm
             this.txt_Nam_hoc.Multiline = true;
             this.txt_Nam_hoc.Name = "txt_Nam_hoc";
             this.txt_Nam_hoc.Size = new System.Drawing.Size(166, 39);
-            this.txt_Nam_hoc.TabIndex = 89;
+            this.txt_Nam_hoc.TabIndex = 3;
             // 
             // listView_DS_Lop
             // 
@@ -229,7 +229,7 @@ namespace Final_Project_WinForm
             this.btn_ds_non.Location = new System.Drawing.Point(185, 463);
             this.btn_ds_non.Name = "btn_ds_non";
             this.btn_ds_non.Size = new System.Drawing.Size(98, 39);
-            this.btn_ds_non.TabIndex = 94;
+            this.btn_ds_non.TabIndex = 9;
             this.btn_ds_non.Text = "In ds ";
             this.btn_ds_non.UseVisualStyleBackColor = true;
             this.btn_ds_non.Click += new System.EventHandler(this.btn_ds_non_Click);
@@ -240,7 +240,7 @@ namespace Final_Project_WinForm
             this.btn_in_ds.Location = new System.Drawing.Point(185, 394);
             this.btn_in_ds.Name = "btn_in_ds";
             this.btn_in_ds.Size = new System.Drawing.Size(124, 39);
-            this.btn_in_ds.TabIndex = 93;
+            this.btn_in_ds.TabIndex = 8;
             this.btn_in_ds.Text = "in_ds_NK";
             this.btn_in_ds.UseVisualStyleBackColor = true;
             this.btn_in_ds.Click += new System.EventHandler(this.btn_in_ds_Click);
@@ -249,7 +249,7 @@ namespace Final_Project_WinForm
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(32, 347);
+            this.label1.Location = new System.Drawing.Point(32, 334);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(116, 26);
             this.label1.TabIndex = 92;
@@ -258,11 +258,11 @@ namespace Final_Project_WinForm
             // txt_NienKhoa
             // 
             this.txt_NienKhoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_NienKhoa.Location = new System.Drawing.Point(159, 334);
+            this.txt_NienKhoa.Location = new System.Drawing.Point(171, 334);
             this.txt_NienKhoa.Multiline = true;
             this.txt_NienKhoa.Name = "txt_NienKhoa";
             this.txt_NienKhoa.Size = new System.Drawing.Size(166, 39);
-            this.txt_NienKhoa.TabIndex = 91;
+            this.txt_NienKhoa.TabIndex = 7;
             // 
             // groupBox2
             // 

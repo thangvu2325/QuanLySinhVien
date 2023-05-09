@@ -25,15 +25,25 @@ namespace Final_Project_WinForm
 
         private void btn_Show_Click(object sender, EventArgs e)
         {
-            string MaLop = txt_MaLop.Text;
-            Nhap_Lop.DS_Lop.getAverageScoreInClass( listView_ds_Diem_TB,MaLop, Nhap_MonHoc.DS_MonHoc);
+            if (Nhap_Lop.DS_Lop.Find_Lop(txt_MaLop.Text) != null)
+            {
+                string MaLop = txt_MaLop.Text;
+                Nhap_Lop.DS_Lop.getAverageScoreInClass(listView_ds_Diem_TB, MaLop, Nhap_MonHoc.DS_MonHoc);
 
-            lable_lop.Text = Nhap_Lop.DS_Lop.Ten_Lop_from_MaLop(MaLop);
-            lable_namhoc.Text = Nhap_Lop.DS_Lop.Nam_Hoc_form_MaLop(MaLop);
+                lable_lop.Text = Nhap_Lop.DS_Lop.Ten_Lop_from_MaLop(MaLop);
+                lable_namhoc.Text = Nhap_Lop.DS_Lop.Nam_Hoc_form_MaLop(MaLop);
 
-            lable_lop.Show();
-            lable_namhoc.Show();
-               
+                lable_lop.Show();
+                lable_namhoc.Show();
+            }
+            else
+            {
+                MessageBox.Show("Úi không có lớp này bạn ơi", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                txt_MaLop.ResetText();
+                txt_MaLop.Focus();
+            }
+
+
         }
     }
 }

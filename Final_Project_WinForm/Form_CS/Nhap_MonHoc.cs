@@ -35,6 +35,8 @@ namespace Final_Project_WinForm
             listView_DSMH.Items.Add(lvi);
             Main_Form.colListMonHoc.DeleteMany(Builders<BST>.Filter.Empty);
             Main_Form.colListMonHoc.InsertOne(DS_MonHoc);
+
+            reset_text();
         }
 
         private void btn_inds_Click_(object sender, EventArgs e)
@@ -96,6 +98,14 @@ namespace Final_Project_WinForm
         {
             listView_DSMH.Items.Clear();
             DS_MonHoc.Inorder(listView_DSMH);
+        }
+        void reset_text()
+        {
+            txt_MaMonHoc.ResetText();
+            txt_TenMonHoc.ResetText();
+            txt_STCLT.ResetText();
+            txt_STCTH.ResetText();
+            txt_MaMonHoc.Focus();
         }
     }
 }

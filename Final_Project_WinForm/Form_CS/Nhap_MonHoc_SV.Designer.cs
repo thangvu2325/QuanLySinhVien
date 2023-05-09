@@ -58,7 +58,7 @@ namespace Final_Project_WinForm
             this.txt_MaMH.Multiline = true;
             this.txt_MaMH.Name = "txt_MaMH";
             this.txt_MaMH.Size = new System.Drawing.Size(148, 39);
-            this.txt_MaMH.TabIndex = 109;
+            this.txt_MaMH.TabIndex = 2;
             // 
             // columnHeader2
             // 
@@ -142,7 +142,7 @@ namespace Final_Project_WinForm
             this.btn_fix.Location = new System.Drawing.Point(234, 255);
             this.btn_fix.Name = "btn_fix";
             this.btn_fix.Size = new System.Drawing.Size(134, 39);
-            this.btn_fix.TabIndex = 108;
+            this.btn_fix.TabIndex = 6;
             this.btn_fix.Text = "Hiệu Chỉnh";
             this.btn_fix.UseVisualStyleBackColor = true;
             this.btn_fix.Click += new System.EventHandler(this.btn_fix_Click);
@@ -153,7 +153,7 @@ namespace Final_Project_WinForm
             this.btn_Xoa.Location = new System.Drawing.Point(148, 255);
             this.btn_Xoa.Name = "btn_Xoa";
             this.btn_Xoa.Size = new System.Drawing.Size(80, 39);
-            this.btn_Xoa.TabIndex = 107;
+            this.btn_Xoa.TabIndex = 5;
             this.btn_Xoa.Text = "Xóa";
             this.btn_Xoa.UseVisualStyleBackColor = true;
             this.btn_Xoa.Click += new System.EventHandler(this.btn_Xoa_Click);
@@ -164,7 +164,7 @@ namespace Final_Project_WinForm
             this.btn_Add.Location = new System.Drawing.Point(62, 255);
             this.btn_Add.Name = "btn_Add";
             this.btn_Add.Size = new System.Drawing.Size(80, 39);
-            this.btn_Add.TabIndex = 102;
+            this.btn_Add.TabIndex = 4;
             this.btn_Add.Text = "Thêm";
             this.btn_Add.UseVisualStyleBackColor = true;
             this.btn_Add.Click += new System.EventHandler(this.btn_Add_Click);
@@ -186,7 +186,7 @@ namespace Final_Project_WinForm
             this.txt_MaLop.Multiline = true;
             this.txt_MaLop.Name = "txt_MaLop";
             this.txt_MaLop.Size = new System.Drawing.Size(148, 39);
-            this.txt_MaLop.TabIndex = 103;
+            this.txt_MaLop.TabIndex = 1;
             // 
             // txt_LanThi
             // 
@@ -195,7 +195,7 @@ namespace Final_Project_WinForm
             this.txt_LanThi.Multiline = true;
             this.txt_LanThi.Name = "txt_LanThi";
             this.txt_LanThi.Size = new System.Drawing.Size(148, 39);
-            this.txt_LanThi.TabIndex = 111;
+            this.txt_LanThi.TabIndex = 3;
             // 
             // label3
             // 

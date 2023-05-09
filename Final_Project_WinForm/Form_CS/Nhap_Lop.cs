@@ -25,18 +25,31 @@ namespace Final_Project_WinForm
         SingleNode<Lop> currentLop;
         private void btn_Add_Lop_Click(object sender, EventArgs e)
         {
+            if (int.TryParse(txt_Nam_hoc.Text, out int value))
+            {
+                String malop = txt_Ma_Lop.Text;
+                String tenlop = txt_Ten_Lop.Text;
+                int namhoc = int.Parse(txt_Nam_hoc.Text);
+                DS_Lop.AddLast(new Lop(malop, tenlop, namhoc, new LinkedList_SinhVien()));
 
-            String malop = txt_Ma_Lop.Text;
-            String tenlop = txt_Ten_Lop.Text;
-            int namhoc = int.Parse(txt_Nam_hoc.Text);
-            DS_Lop.AddLast(new Lop(malop, tenlop, namhoc,new LinkedList_SinhVien()));
+                ListViewItem lvi = new ListViewItem(malop);
+                lvi.SubItems.Add(tenlop);
+                lvi.SubItems.Add(namhoc.ToString());
+                listView_DS_Lop.Items.Add(lvi);
+                Main_Form.colListClass.DeleteMany(Builders<LinkedList_Lop>.Filter.Empty);
+                Main_Form.colListClass.InsertOne(DS_Lop);
 
-            ListViewItem lvi = new ListViewItem(malop);
-            lvi.SubItems.Add(tenlop);
-            lvi.SubItems.Add(namhoc.ToString());
-            listView_DS_Lop.Items.Add(lvi);
-            Main_Form.colListClass.DeleteMany(Builders<LinkedList_Lop>.Filter.Empty);
-            Main_Form.colListClass.InsertOne(DS_Lop);
+                reset_text();
+
+            }
+            else
+            {
+                MessageBox.Show("Úi nhập sai năm bạn ơi", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                txt_Nam_hoc.ResetText();
+                txt_Nam_hoc.Focus();
+                
+            }
+
         }
 
         private void btn_in_ds_Click(object sender, EventArgs e)
@@ -95,6 +108,13 @@ namespace Final_Project_WinForm
             listView_DS_Lop.Items.Clear();
             DS_Lop.Traverse(listView_DS_Lop);
 
+        }
+        private void reset_text()
+        {
+            txt_Ma_Lop.ResetText();
+            txt_Nam_hoc.ResetText();
+            txt_Ten_Lop.ResetText();
+            txt_Ma_Lop.Focus();
         }
     }
 }

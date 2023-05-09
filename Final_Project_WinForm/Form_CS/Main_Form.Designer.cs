@@ -86,9 +86,9 @@ namespace Final_Project_WinForm
             // btn_Nhap_MonHoc
             // 
             this.btn_Nhap_MonHoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Nhap_MonHoc.Location = new System.Drawing.Point(390, 214);
+            this.btn_Nhap_MonHoc.Location = new System.Drawing.Point(358, 214);
             this.btn_Nhap_MonHoc.Name = "btn_Nhap_MonHoc";
-            this.btn_Nhap_MonHoc.Size = new System.Drawing.Size(204, 39);
+            this.btn_Nhap_MonHoc.Size = new System.Drawing.Size(261, 39);
             this.btn_Nhap_MonHoc.TabIndex = 87;
             this.btn_Nhap_MonHoc.Text = "Nhập Môn Học";
             this.btn_Nhap_MonHoc.UseVisualStyleBackColor = true;
@@ -97,9 +97,9 @@ namespace Final_Project_WinForm
             // btn_Show_Diem_lanthi
             // 
             this.btn_Show_Diem_lanthi.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Show_Diem_lanthi.Location = new System.Drawing.Point(390, 357);
+            this.btn_Show_Diem_lanthi.Location = new System.Drawing.Point(358, 357);
             this.btn_Show_Diem_lanthi.Name = "btn_Show_Diem_lanthi";
-            this.btn_Show_Diem_lanthi.Size = new System.Drawing.Size(229, 45);
+            this.btn_Show_Diem_lanthi.Size = new System.Drawing.Size(261, 45);
             this.btn_Show_Diem_lanthi.TabIndex = 95;
             this.btn_Show_Diem_lanthi.Text = "In Điểm Theo Lần Thi";
             this.btn_Show_Diem_lanthi.UseVisualStyleBackColor = true;
@@ -108,7 +108,7 @@ namespace Final_Project_WinForm
             // btn_Show_Diem_TB
             // 
             this.btn_Show_Diem_TB.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Show_Diem_TB.Location = new System.Drawing.Point(375, 417);
+            this.btn_Show_Diem_TB.Location = new System.Drawing.Point(358, 417);
             this.btn_Show_Diem_TB.Name = "btn_Show_Diem_TB";
             this.btn_Show_Diem_TB.Size = new System.Drawing.Size(261, 45);
             this.btn_Show_Diem_TB.TabIndex = 96;
@@ -130,7 +130,7 @@ namespace Final_Project_WinForm
             // btn_Tong_Ket
             // 
             this.btn_Tong_Ket.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Tong_Ket.Location = new System.Drawing.Point(356, 479);
+            this.btn_Tong_Ket.Location = new System.Drawing.Point(358, 480);
             this.btn_Tong_Ket.Name = "btn_Tong_Ket";
             this.btn_Tong_Ket.Size = new System.Drawing.Size(261, 45);
             this.btn_Tong_Ket.TabIndex = 98;

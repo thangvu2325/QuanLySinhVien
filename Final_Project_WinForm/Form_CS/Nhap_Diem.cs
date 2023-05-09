@@ -25,6 +25,7 @@ namespace Final_Project_WinForm
             string lanThi = txt_LanThi.Text;
 
             Nhap_Lop.DS_Lop.getSinhvien(listView_ds_Diem,malop, maMH, int.Parse(lanThi)); 
+            
         }
 
         private void btn_add_Click(object sender, EventArgs e)
@@ -40,6 +41,7 @@ namespace Final_Project_WinForm
                 Nhap_Lop.DS_Lop.getSinhvien(listView_ds_Diem, malop, maMH, int.Parse(lanThi), MSSV_upDiem, int.Parse(txt_diem.Text));
 
             }
+            txt_diem.ResetText();
         }
 
         private void listView_ds_Diem_SelectedIndexChanged(object sender, EventArgs e)

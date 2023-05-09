@@ -60,7 +60,7 @@ namespace Final_Project_WinForm
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(71, 32);
+            this.label12.Location = new System.Drawing.Point(55, 40);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(90, 26);
             this.label12.TabIndex = 89;
@@ -73,13 +73,13 @@ namespace Final_Project_WinForm
             this.txt_MaLop.Multiline = true;
             this.txt_MaLop.Name = "txt_MaLop";
             this.txt_MaLop.Size = new System.Drawing.Size(188, 39);
-            this.txt_MaLop.TabIndex = 88;
+            this.txt_MaLop.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(20, 85);
+            this.label2.Location = new System.Drawing.Point(4, 85);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(141, 26);
             this.label2.TabIndex = 96;
@@ -92,13 +92,13 @@ namespace Final_Project_WinForm
             this.txt_maMH.Multiline = true;
             this.txt_maMH.Name = "txt_maMH";
             this.txt_maMH.Size = new System.Drawing.Size(188, 39);
-            this.txt_maMH.TabIndex = 95;
+            this.txt_maMH.TabIndex = 3;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(71, 122);
+            this.label3.Location = new System.Drawing.Point(56, 130);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(89, 26);
             this.label3.TabIndex = 98;
@@ -111,7 +111,7 @@ namespace Final_Project_WinForm
             this.txt_LanThi.Multiline = true;
             this.txt_LanThi.Name = "txt_LanThi";
             this.txt_LanThi.Size = new System.Drawing.Size(188, 39);
-            this.txt_LanThi.TabIndex = 97;
+            this.txt_LanThi.TabIndex = 4;
             // 
             // panel1
             // 
@@ -161,7 +161,7 @@ namespace Final_Project_WinForm
             this.btn_Show.Location = new System.Drawing.Point(149, 175);
             this.btn_Show.Name = "btn_Show";
             this.btn_Show.Size = new System.Drawing.Size(92, 39);
-            this.btn_Show.TabIndex = 104;
+            this.btn_Show.TabIndex = 5;
             this.btn_Show.Text = "Show";
             this.btn_Show.UseVisualStyleBackColor = true;
             this.btn_Show.Click += new System.EventHandler(this.btn_Show_Click);
@@ -170,7 +170,8 @@ namespace Final_Project_WinForm
             // 
             this.lab_mssv.AutoSize = true;
             this.lab_mssv.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lab_mssv.Location = new System.Drawing.Point(20, 285);
+            this.lab_mssv.ForeColor = System.Drawing.Color.Red;
+            this.lab_mssv.Location = new System.Drawing.Point(20, 277);
             this.lab_mssv.Name = "lab_mssv";
             this.lab_mssv.Size = new System.Drawing.Size(96, 26);
             this.lab_mssv.TabIndex = 103;
@@ -180,7 +181,7 @@ namespace Final_Project_WinForm
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(56, 238);
+            this.label4.Location = new System.Drawing.Point(35, 238);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(81, 26);
             this.label4.TabIndex = 102;
@@ -192,7 +193,7 @@ namespace Final_Project_WinForm
             this.btn_add.Location = new System.Drawing.Point(263, 272);
             this.btn_add.Name = "btn_add";
             this.btn_add.Size = new System.Drawing.Size(92, 39);
-            this.btn_add.TabIndex = 101;
+            this.btn_add.TabIndex = 7;
             this.btn_add.Text = "Add";
             this.btn_add.UseVisualStyleBackColor = true;
             this.btn_add.Click += new System.EventHandler(this.btn_add_Click);
@@ -204,7 +205,7 @@ namespace Final_Project_WinForm
             this.txt_diem.Multiline = true;
             this.txt_diem.Name = "txt_diem";
             this.txt_diem.Size = new System.Drawing.Size(83, 39);
-            this.txt_diem.TabIndex = 99;
+            this.txt_diem.TabIndex = 6;
             // 
             // label1
             // 

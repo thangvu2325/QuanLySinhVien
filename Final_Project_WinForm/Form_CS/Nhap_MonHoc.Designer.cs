@@ -63,7 +63,7 @@ namespace Final_Project_WinForm
             this.txt_TenMonHoc.Multiline = true;
             this.txt_TenMonHoc.Name = "txt_TenMonHoc";
             this.txt_TenMonHoc.Size = new System.Drawing.Size(148, 39);
-            this.txt_TenMonHoc.TabIndex = 109;
+            this.txt_TenMonHoc.TabIndex = 2;
             // 
             // label4
             // 
@@ -81,7 +81,7 @@ namespace Final_Project_WinForm
             this.btn_Add_Monhoc.Location = new System.Drawing.Point(86, 336);
             this.btn_Add_Monhoc.Name = "btn_Add_Monhoc";
             this.btn_Add_Monhoc.Size = new System.Drawing.Size(80, 39);
-            this.btn_Add_Monhoc.TabIndex = 102;
+            this.btn_Add_Monhoc.TabIndex = 5;
             this.btn_Add_Monhoc.Text = "Thêm";
             this.btn_Add_Monhoc.UseVisualStyleBackColor = true;
             this.btn_Add_Monhoc.Click += new System.EventHandler(this.btn_Add_Monhoc_Click);
@@ -93,7 +93,7 @@ namespace Final_Project_WinForm
             this.txt_STCTH.Multiline = true;
             this.txt_STCTH.Name = "txt_STCTH";
             this.txt_STCTH.Size = new System.Drawing.Size(148, 39);
-            this.txt_STCTH.TabIndex = 113;
+            this.txt_STCTH.TabIndex = 4;
             // 
             // txt_MaMonHoc
             // 
@@ -102,7 +102,7 @@ namespace Final_Project_WinForm
             this.txt_MaMonHoc.Multiline = true;
             this.txt_MaMonHoc.Name = "txt_MaMonHoc";
             this.txt_MaMonHoc.Size = new System.Drawing.Size(148, 39);
-            this.txt_MaMonHoc.TabIndex = 103;
+            this.txt_MaMonHoc.TabIndex = 1;
             // 
             // label3
             // 
@@ -131,7 +131,7 @@ namespace Final_Project_WinForm
             this.txt_STCLT.Multiline = true;
             this.txt_STCLT.Name = "txt_STCLT";
             this.txt_STCLT.Size = new System.Drawing.Size(148, 39);
-            this.txt_STCLT.TabIndex = 111;
+            this.txt_STCLT.TabIndex = 3;
             // 
             // label2
             // 
@@ -159,7 +159,7 @@ namespace Final_Project_WinForm
             this.btn_Xoa_MH.Location = new System.Drawing.Point(172, 336);
             this.btn_Xoa_MH.Name = "btn_Xoa_MH";
             this.btn_Xoa_MH.Size = new System.Drawing.Size(80, 39);
-            this.btn_Xoa_MH.TabIndex = 107;
+            this.btn_Xoa_MH.TabIndex = 6;
             this.btn_Xoa_MH.Text = "Xóa";
             this.btn_Xoa_MH.UseVisualStyleBackColor = true;
             this.btn_Xoa_MH.Click += new System.EventHandler(this.btn_Xoa_MH_Click);
@@ -170,7 +170,7 @@ namespace Final_Project_WinForm
             this.btn_fix_MH.Location = new System.Drawing.Point(258, 336);
             this.btn_fix_MH.Name = "btn_fix_MH";
             this.btn_fix_MH.Size = new System.Drawing.Size(134, 39);
-            this.btn_fix_MH.TabIndex = 108;
+            this.btn_fix_MH.TabIndex = 7;
             this.btn_fix_MH.Text = "Hiệu Chỉnh";
             this.btn_fix_MH.UseVisualStyleBackColor = true;
             this.btn_fix_MH.Click += new System.EventHandler(this.btn_fix_MH_Click);
@@ -181,7 +181,7 @@ namespace Final_Project_WinForm
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1033, 52);
+            this.panel1.Size = new System.Drawing.Size(1106, 52);
             this.panel1.TabIndex = 115;
             // 
             // label5
@@ -224,7 +224,7 @@ namespace Final_Project_WinForm
             this.btn_inds.Location = new System.Drawing.Point(258, 405);
             this.btn_inds.Name = "btn_inds";
             this.btn_inds.Size = new System.Drawing.Size(80, 39);
-            this.btn_inds.TabIndex = 115;
+            this.btn_inds.TabIndex = 8;
             this.btn_inds.Text = "in ds";
             this.btn_inds.UseVisualStyleBackColor = true;
             this.btn_inds.Click += new System.EventHandler(this.btn_inds_Click);
@@ -236,7 +236,7 @@ namespace Final_Project_WinForm
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(470, 52);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(563, 554);
+            this.groupBox2.Size = new System.Drawing.Size(636, 554);
             this.groupBox2.TabIndex = 117;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Danh sách môn học:";
@@ -285,7 +285,7 @@ namespace Final_Project_WinForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1033, 606);
+            this.ClientSize = new System.Drawing.Size(1106, 606);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel1);

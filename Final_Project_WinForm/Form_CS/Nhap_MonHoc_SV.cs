@@ -37,6 +37,7 @@ namespace Final_Project_WinForm
             Main_Form.colListClass.DeleteMany(Builders<LinkedList_Lop>.Filter.Empty);
             Main_Form.colListClass.InsertOne(Nhap_Lop.DS_Lop);
 
+            reset_text();
         }
 
         private void btn_Xoa_Click(object sender, EventArgs e)
@@ -89,6 +90,13 @@ namespace Final_Project_WinForm
 
                // current_MH = DS_MonHoc.Search(tenMH);
             }
+        }
+        void reset_text()
+        {
+            txt_LanThi.ResetText();
+            txt_MaLop.ResetText();
+            txt_MaMH.ResetText();
+            txt_MaLop.Focus();
         }
     }
 }

@@ -76,33 +76,7 @@ namespace Final_Project_WinForm
                 InorderRec(root.right,listview);
             }
         }
-        public void Preorder()
-        {
-            PreorderRec(root);
-        }
-
-        private void PreorderRec(TreeNode root)
-        {
-            if (root != null)
-            {
-                Console.WriteLine("\t" + " | " + root.Data.MAMH + " | " + root.Data.TENMH + " | ");
-                PreorderRec(root.left);
-                PreorderRec(root.right);
-            }
-        }
-        public void Postorder()
-        {
-            PostorderRec(root);
-        }
-        private void PostorderRec(TreeNode root)
-        {
-            if (root != null)
-            {
-                PostorderRec(root.left);
-                PostorderRec(root.right);
-                Console.WriteLine("\t" + " | " + root.Data.MAMH + " | " + root.Data.TENMH + " | ");
-            }
-        }
+    
         public TreeNode Search(string tenMH)
         {
             return SearchRec(root,tenMH);
@@ -138,21 +112,7 @@ namespace Final_Project_WinForm
             return ten_monHoc;
         }
 
-        /*private TreeNode Find_MaMH(TreeNode root, string maMH)
-        {
-            if (root == null || root.Data.MAMH.Equals(maMH))
-            {
-                return root;
-            }
 
-            else if (string.Compare(maMH, root.Data.MAMH) < 0)
-            {
-                return Find_MaMH(root.left, maMH);
-            }
-            else
-                return Find_MaMH(root.right, maMH);
-        }
-*/
         public void Delete(MonHoc Data)
         {
             root = DeleteRec(root, Data);

@@ -12,7 +12,6 @@ using MongoDB.Bson.Serialization.Conventions;
 using MongoDB.Driver;
 namespace Final_Project_WinForm
 {
-    
     public partial class Nhap_Lop : Form
     {
         public Nhap_Lop()
@@ -21,7 +20,6 @@ namespace Final_Project_WinForm
         }
 
         public static LinkedList_Lop DS_Lop = Main_Form.colListClass.Find(new BsonDocument()).ToList()[0];
-        //public object DS_Lop { get; private set; }
         SingleNode<Lop> currentLop;
         private void btn_Add_Lop_Click(object sender, EventArgs e)
         {

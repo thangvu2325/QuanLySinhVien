@@ -53,7 +53,7 @@ namespace Final_Project_WinForm
 
                 Main_Form.colListClass.DeleteMany(Builders<LinkedList_Lop>.Filter.Empty);
                 Main_Form.colListClass.InsertOne(Nhap_Lop.DS_Lop);
-            }
+            }   
         }
 
         private void btn_fix_Click(object sender, EventArgs e)

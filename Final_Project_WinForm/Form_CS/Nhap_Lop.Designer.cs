@@ -303,7 +303,6 @@ namespace Final_Project_WinForm
         private System.Windows.Forms.TextBox txt_Ma_Lop;
         private System.Windows.Forms.Button btn_Add_Lop;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txt_Ten_Lop;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txt_Nam_hoc;
         private System.Windows.Forms.ListView listView_DS_Lop;
@@ -318,5 +317,6 @@ namespace Final_Project_WinForm
         private System.Windows.Forms.TextBox txt_NienKhoa;
         private System.Windows.Forms.Button btn_in_ds;
         private System.Windows.Forms.Button btn_ds_non;
+        private System.Windows.Forms.TextBox txt_Ten_Lop;
     }
 }
